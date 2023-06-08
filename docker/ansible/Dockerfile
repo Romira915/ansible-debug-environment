@@ -7,5 +7,3 @@ RUN apt-get update && \
     apt-add-repository ppa:ansible/ansible && \
     apt-get update && \
     apt-get install -y ansible
-
-CMD /bin/bash

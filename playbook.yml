@@ -1,5 +1,5 @@
 - hosts: target
+  name: test
   tasks:
-    - name: "テスト"
-      shell: |
-        touch hoge
+    shell: |
+      touch hoge

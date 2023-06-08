@@ -1,13 +1,13 @@
 version: '3'
 services:
   ansible:
-    container_name: ansible 
+    container_name: ansible
     build: docker/ansible
     tty: true
     working_dir: "/var/data"
     volumes:
       - .:/var/data
-  
+
   target01:
     container_name: target01
     build: docker/target
